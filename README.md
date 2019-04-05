@@ -5,7 +5,7 @@ Usage:
 
 Install via composer
 
-```"best-play/bestplay-currency-converter": "1.*"```
+```"best-play/bestplay-currency-converter": "dev-master"```
 
 Example:
 
