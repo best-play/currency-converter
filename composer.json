@@ -1,0 +1,22 @@
+{
+    "name": "best-play/bestplay-currency-converter",
+    "description": "PHP class can convert currencies using ExchangeRates API (https://api.exchangeratesapi.io/).",
+    "keywords": ["currency converter", "currency", "converter", "exchangeratesapi"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Simonov",
+            "email": "dimka@3g.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.5.9 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BestPlay\\": "src/"
+        }
+    }
+}
