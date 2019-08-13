@@ -46,7 +46,8 @@ class CurrencyConverter
     private function parseRequest($url)
     {
         $content = $this->callJSONUrl($url);
-        if($content['error'])
+        $error = array_key_exists('error', $content) ? $content['error'] : null;
+        if($error)
             return $content;
 
         $rate = $content['rates'][$this->currency_to];
