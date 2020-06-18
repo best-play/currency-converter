@@ -3,7 +3,7 @@ PHP class can convert currencies using ExchangeRates API (https://api.exchangera
 
 Usage:
 
-Install via composer:
+Install via composer-
 
 ```"best-play/bestplay-currency-converter": "dev-master"```
 
